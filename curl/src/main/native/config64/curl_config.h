@@ -179,7 +179,7 @@
 #define HAVE_BOOL_T 1
 
 /* if BROTLI is in use */
-/* #undef HAVE_BROTLI */
+#define HAVE_BROTLI 1
 
 /* Define to 1 if you have the <brotli/decode.h> header file. */
 /* #undef HAVE_BROTLI_DECODE_H */
@@ -428,7 +428,7 @@
 /* #undef HAVE_LIBWOLFSSH */
 
 /* if zlib is available */
-#define HAVE_LIBZ 1
+// #undef HAVE_LIBZ 0
 
 /* Define to 1 if you have the `zstd' library (-lzstd). */
 /* #undef HAVE_LIBZSTD */
