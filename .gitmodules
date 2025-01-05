@@ -10,3 +10,6 @@
 [submodule "curl/src/main/native/nghttp3"]
 	path = curl/src/main/native/nghttp3
 	url = https://github.com/ngtcp2/nghttp3.git
+[submodule "curl/src/main/native/zlib"]
+	path = curl/src/main/native/zlib
+	url = https://github.com/madler/zlib.git
