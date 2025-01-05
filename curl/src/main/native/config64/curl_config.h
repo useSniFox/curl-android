@@ -791,7 +791,7 @@
 /* #undef NEED_THREAD_SAFE */
 
 /* cpu-machine-OS */
-#define OS "unknown-linux-android"
+#define CURL_OS "unknown-linux-android"
 
 /* Name of package */
 #define PACKAGE "curl"
