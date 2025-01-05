@@ -41,7 +41,7 @@ endif
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/curl/include
 LOCAL_EXPORT_LDLIBS     := -lz
 LOCAL_CFLAGS            := -DHAVE_CONFIG_H -DBUILDING_LIBCURL
-LOCAL_STATIC_LIBRARIES  := ssl_static nghttp2_static nghttp3_static ngtcp2_static
+LOCAL_STATIC_LIBRARIES  := ssl_static nghttp2_static nghttp3_static ngtcp2_static brotli_static
 include $(BUILD_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
